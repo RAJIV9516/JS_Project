@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ======================topnav========================= -->
+  <section class="topnav">
+    <article>
+      <div class="div1"><img src="https://cdn6.agoda.net/images/kite-js/logo/agoda/color-default.svg" alt=""></div>
+      <div class="div2"><a href="#">Flight + Hotel</a></div>
+      <div class="div3"><a href="#">Hotels & Homes</a></div>
+      <div class="div4"><a href="#">Transport</a></div>
+      <div class="div5"><a href="#">Activities</a></div>
+      <div class="div6"><a href="#">Coupons & Deals</a></div>
+      <div class="div7"><a href="#">eSIM</a></div>
+      <div class="div8"><a href="#">Travel Guides</a></div>
+      <div class="div9"><a href="#">Travel Itineraries</a></div>
+      <div class="btn">List your place</div>
+      <div class="div10"><img
+          src=" https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS7XGLh-rBT0QiYYk6E5Fy5f_W9hpQ1pxAlBE1CiKXqnso2dBtf"
+          alt=""></div>
+      <div class="div11"><a href="#">Rs.</a></div>
+      <div class="btn1"><a href="signin.html">Sign in</a></div>
+      <div class="btn2"><a href="#">Create account</a></div>
+      <!-- <div class="div14"><i class="fa-solid fa-bars"></i></div> -->
+    </article>
+  </section>
+  <!-- ============================hero section================== -->
+  <section class="hero">
+    <article class="ar1">
+      <div class="div1">Bhopal hotels & places to stay</div>
+      <div class="div2">Search to compare prices and discover great deals with free cancellation</div>
+    </article>
+     <article class="ar2">
+      <form action="./fetch.html" class="Search-bar" onsubmit="return insert_data()">
+        <input type="text" placeholder="Enter a destination or property" id="destination">
+        <input type="text" id="d1" placeholder="Check in" onfocus="this.type = 'date'" onblur="this.type = 'text'">
+        <input type="text" id="d2" placeholder="Check out" onfocus="this.type = 'date'" onblur="this.type = 'text'">
+        <select name="" id="d3">
+          <option value="1 Adult">solo Travel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1room, 1adult</option>
+          <option value="1room,2adult">Couple/pair &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1room,2adult</option>
+          <option value="Family travelers">Family travelers</option>
+          <option value="Group travelers">Group travelers</option>
+          <option value="Business travelers">Business travelers</option>
+        <input type="Submit" id="h1" placeholder="search" >
+        </form>
+ 
+        <!-- <form action="">
+          <input type="text" id="d1" placeholder="Check in" onfocus="this.type = 'date'" onblur="this.type = 'text'">
+          <input type="text" id="d2" placeholder="Check out" onfocus="this.type = 'date'" onblur="this.type = 'text'">
+        </form>
+      </article> -->
+      <!-- </form>
+      <div class="div1">
+        <input type="text" id="d1" placeholder="Check in" onfocus="this.type = 'date'" onblur="this.type = 'text'">
+        <input type="text" id="d2" placeholder="Check out" onfocus="this.type = 'date'" onblur="this.type = 'text'">
+      </div>
+      <div class="div2">
+        <select name="" id="">
+          <option value="1 Adult">solo Travel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1room, 1adult</option>
+          <option value="">Couple/pair &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1room,2adult</option>
+          <option value="">Family travelers</option>
+          <option value="">Group travelers</option>
+          <option value="">Business travelers</option>
+
+        </select>
+      </div>
+      <div class="div3">
+        <input type="submit" id="h1" placeholder="search" onclick="insert_data()">
+      </div>
+    </article>
+    <article class="ar3">
+
+
+
+    </article>  -->
+  </section>
+  <!--===========================hero1======================= -->
+  <div class="h12" data-aos="fade-right">Hotels in Bhopal</div>
+  <section class="hero1">
+    <!-- <div class="div1">Hotels in Bhopal</div> -->
+    <article class="ar1">
+      <div class="star">star rating</div>
+      <label for="">
+        <input type="checkbox">
+        5 stars
+      </label> <br>
+      <label for="">
+        <input type="checkbox">
+        4 stars
+      </label><br>
+      <label for="">
+        <input type="checkbox">
+        3 stars
+      </label><br>
+      <label for="">
+        <input type="checkbox">
+        2 stars
+      </label><br>
+      <label for="">
+        <input type="checkbox">
+        1 stars
+      </label>
+
+      <div class="rel">Review score</div>
+      <label for="">
+        <input type="checkbox">
+        Exceptionl 9+
+      </label><br>
+      <label for="">
+        <input type="checkbox">
+        Very good 8+
+      </label><br>
+      <label for="">
+        <input type="checkbox">
+        Good 7+
+      </label><br>
+      <label for="">
+        <input type="checkbox">
+        Pleasant 6+
+      </label>
+    </article>
+
+    <article class="ar2">
+      <article class="ar">
+        <div class="div1">Our top picks</div>
+        <div class="div2">Lowest price first</div>
+        <div class="div3">Nearest to</div>
+        <div class="div4">Best reviewed</div>
+      </article>
+
+      <article class="photo">
+        <!-- <article> -->
+        <div class="div1"><img
+            src="https://pix8.agoda.net/hotelImages/32268791/-1/d3ff295af2373727483e6da6d159680b.jpg?ce=0&s=450x450"
+            alt=""></div>
+        <div class="div2">
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/32268791/0/41f6e126a0b69bb62cec048dccf7997f.jpg?ce=0&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/32268791/-1/bf970976d61a185de3b6f9911bf32160.jpg?ce=0&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/32268791/-1/5c820521f6b68579da4ca8bbade14661.jpg?ce=0&s=100x100"
+              alt=""></div>
+          <div><img src="https://pix8.agoda.net/property/42094610/0/3c569d55e1b40510d954ad845e478915.jpg?ce=0&s=100x100"
+              alt=""></div>
+          <div class="div3">
+            <div class="ph1"><img
+                src="https://pix8.agoda.net/property/32268791/0/ce5614e74e768bcaec42d3768b54e9c3.jpeg?ce=0&s=100x100"
+                alt=""></div>
+            <div><img
+                src="https://pix8.agoda.net/property/32268791/0/b639ac3c40a8b1ec83da4bd62bd06063.jpeg?ce=0&s=100x100"
+                alt=""></div>
+            <div><img
+                src="https://pix8.agoda.net/hotelImages/32268791/0/41f6e126a0b69bb62cec048dccf7997f.jpg?ce=0&s=100x100"
+                alt=""></div>
+            <div class="ph2"><img
+                src="https://pix8.agoda.net/property/32268791/0/df85b03215269182742b9ae0d9e4a090.jpeg?ce=0&s=100x100"
+                alt=""></div>
+          </div>
+        </div>
+      </article>
+      <article class="ar3">
+        <div class="div1">The Vincent Inn</div>
+        <div class="div2">
+          <div class="h1"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+              class="fa-regular fa-star"></i></div>
+          <div class="h2"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="h3">MP Nagar,Bhopal -View on map</div>
+        </div>
+        <div class="div3">
+          <div class="h4">Airport transfer</div>
+          <div class="h5">Car park</div>
+          <div class="h6">Free Wi-Fi in all rooms!</div>
+          <div class="h7">+5</div>
+        </div>
+        <div class="div4">"Room was clean and well equipped with clean toilet"</div>
+        <!-- <div><hr></div> -->
+      </article>
+      <article class="ar4">
+        <div class="div1">Excellent</div>
+        <div class="div2">521 reviews</div>
+        <div class="div3">Avg price per night</div>
+        <div class="div4">Rs. 3,567</div>
+        <button class="btn" data-aos="zoom-in">Check availability</button>
+      </article>
+    </article>
+  </section>
+  <!-- ==========================hero2======================= -->
+  <section class="hero2">
+    <article class="sec">
+      <article class="ar1">
+        <div class="div1"><img
+            src="https://q-xx.bstatic.com/xdata/images/hotel/max500/78929895.jpg?k=9731f2bf329d776e0a8a118684f2ecf83467bb9a37329e4e4213720ed3b58912&s=450x450"
+            alt=""></div>
+        <div class="div2">
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/70771840.jpg?k=a6ac4dbc4d16f71f8f105310eeb2baeaa935e6abe49a1c395b53db40cc8ca021&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/70771839.jpg?k=de62e1ab80957aff8fcb34f88ee24c57a4c00add5eaff05167d97ca663b53e24&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/105626215.jpg?k=36d40739693446f91bfcff5b65ce19672fdf82c6c0e149409930dced6666c39c&s=100x100"
+              alt=""></div>
+          <div><img src="https://pix8.agoda.net/property/7076553/0/e5b084df88ba94cbbe908851a3661627.jpg?ce=0&s=100x100"
+              alt=""></div><br>
+        </div>
+        <div class="div3">
+          <div class="ph1"><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/120015280.jpg?k=f327ac0bb79c01b5916114d389bf344ec38f21e014dd87b7f23fe99efdb1d607&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/120020138.jpg?k=96b1a7fa9a62b7ea37ec385cf7596b3afca02d853ae96fc5330132a70f184345&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://pix8.agoda.net/property/56140548/0/9563599765418dc6868e7c449c8ab938.jpeg?ce=0&s=100x100"
+              alt=""></div>
+          <div class="ph2"><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/120020119.jpg?k=af431d20cc3b0beb95809ad192e2d3904fabee77ca4ae53d76491a45810e0700&s=100x100"
+              alt=""></div>
+        </div>
+      </article>
+      <article class="ar2">
+        <div class="div1"><a href="#">Enrise by Sayaji Bhopal</a></div>
+        <div class="star">
+          <div class="d1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i></div>
+          <div class="d2"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="d3"><a href="#">Prempura,Bhopal- View on map</a></div>
+        </div>
+        <div class="div4">
+          <div class="d4">Valet parking</div>
+          <div class="d5">Fee Wi-Fi in all rooms!</div>
+          <div class="d6">+6</div>
+        </div>
+        <div class="div5">"Pool side live musical evening and Delicious Buffet"</div>
+      </article>
+    </article>
+    <article class="ar3">
+      <div class="d7">Very Good</div>
+      <div class="d8">52 reviews</div>
+      <div class="d12"><i class="fa-regular fa-message"></i></div>
+      <div class="d9">Avg price per night</div>
+      <div class="d10">Rs. 3,769</div>
+      <div class="d11"><a href="#">Check availability</a></div>
+    </article>
+  </section>
+  <!-- ====================hero3================== -->
+  <section class="hero3">
+    <article class="sec">
+      <article class="ar1">
+        <div class="div1"><img
+            src="https://pix8.agoda.net/hotelImages/50239806/-1/366e25a809220ab9ee54967f454ab86b.jpg?ce=0&s=450x450"
+            alt=""></div>
+        <div class="div2">
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/50239806/-1/2b2f9e05cadc08a2bfb9e35841997cdc.jpg?ce=0&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/526860514.jpg?k=96c8c51013d46d4165e52898aa90fd51d09a7028046ef0fccb49f42293a45cbb&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/50239806/-1/682cfbd5d547376c6035d2f6860babbf.jpg?ce=0&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/50239806/-1/5fab2ce7f361f6ea42826e725475e688.jpg?ce=0&s=100x100"
+              alt=""></div><br>
+        </div>
+        <div class="div3">
+          <div class="ph1"><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/526860512.jpg?k=d612ef149c05c16f47a2c266467819a05024468abe0374bfc409c389fb18fa7d&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/50239806/-1/6a8ba1c3f7bb72804d4cd27c65461440.jpg?ce=0&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/50239806/-1/5242ba56bd79e9494c3aca22d8d82b2f.jpg?ce=0&s=100x100"
+              alt=""></div>
+          <div class="ph2"><img
+              src="https://pix8.agoda.net/hotelImages/50239806/-1/a1d716a0b1069b0d0389bfcf09ce08b4.jpg?ce=0&s=100x100"
+              alt=""></div>
+        </div>
+      </article>
+      <article class="ar2">
+        <div class="div1"><a href="#">FabHotel Prime Oasis Orange</a></div>
+        <div class="star">
+          <div class="d1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i></div>
+          <div class="d2"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="d3"><a href="#">Mp Nagar,Bhopal-View on map</a></div>
+        </div>
+        <div class="div4">
+          <div class="d4">Fee Wi-Fi in all rooms!</div>
+          <div class="d5">Front desk [24-hour]</div>
+          <div class="d6">+6</div>
+        </div>
+        <!-- <div class="div5">"Pool side live musical evening and Delicious Buffet"</div> -->
+      </article>
+    </article>
+    <article class="ar3">
+      <div class="d7">Very Good</div>
+      <div class="d8">83 reviews</div>
+      <div class="d12"><i class="fa-regular fa-message"></i></div>
+      <div class="d9">Avg price per night</div>
+      <div class="d10">Rs. 1,831</div>
+      <div class="d11"><a href="#">Check availability</a></div>
+    </article>
+  </section>
+  <!-- ==================hero4============= -->
+  <section class="hero4">
+    <article class="sec">
+      <article class="ar1">
+        <div class="div1"><img
+            src="https://pix8.agoda.net/hotelImages/231/2311/2311_16091419180046463138.jpg?ca=6&ce=1&s=450x450" alt="">
+        </div>
+        <div class="div2">
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/630258685.jpg?k=7e0c1c635bff3a1de860210c4bb713f12295f926ebbec55dc6b0f6cd9932f885&s=100x100"
+              alt=""></div>
+          <div><img src="https://pix8.agoda.net/property/2311/0/579b43e9efd090285f821d283e0f6ae1.jpeg?s=100x100" alt="">
+          </div>
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/2311/-1/ba0b48ad7694ca1104bd428ce580c4ac.jpg?ca=7&ce=1&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/2311/-1/e74f28428fac2b223877f6e7aa475e9a.jpg?ca=16&ce=1&s=100x100"
+              alt=""></div><br>
+        </div>
+        <div class="div3">
+          <div class="ph1"><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/280078210.jpg?k=247f2d6ebd942a0c941bc2e7811930b5fdc2ca8dda0cae580026a9f127d62b0a&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://pix8.agoda.net/property/26820998/0/7a808863f21e3fbbce45b9c2efe83424.jpg?ca=27&ce=0&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/280089953.jpg?k=b2fd940145c336c49caca486dc56cf08b1077b3dc21a38a913380a332d1c2e7b&s=100x100"
+              alt=""></div>
+          <div class="ph2"><img
+              src="https://pix8.agoda.net/hotelImages/2311/-1/e74f28428fac2b223877f6e7aa475e9a.jpg?ca=16&ce=1&s=100x100"
+              alt=""></div>
+        </div>
+      </article>
+      <article class="ar2">
+        <div class="div1"><a href="#">Noor Us Sabah Palace</a></div>
+        <div class="star">
+          <div class="d1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i></div>
+          <div class="d2"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="d3"><a href="#">Mp Nagar,Bhopal-View on map</a></div>
+        </div>
+        <div class="div4">
+          <div class="d4">Airport transfer</div>
+          <div class="d5">Valet parking</div>
+          <div class="d6">+6</div>
+        </div>
+        <div class="div5">"This is a humongous place. You hardly see anyone!<br> Reminded me of the movie "The Shining".
+          Waiting for<br> Jack Nicholson to knock on the door, "Here's Johnny"!!</div>
+      </article>
+    </article>
+    <article class="ar3">
+      <div class="d7">Excellent</div>
+      <div class="d8">336 reviews</div>
+      <div class="d12"><i class="fa-regular fa-message"></i></div>
+      <div class="d9">Avg price per night</div>
+      <div class="d10">Rs. 8,273</div>
+      <div class="d11"><a href="#">Check availability</a></div>
+    </article>
+  </section>
+  <!-- ========================hero5======================= -->
+  <section class="hero5">
+    <article class="sec">
+      <article class="ar1">
+        <div class="div1"><img
+            src="https://pix8.agoda.net/hotelImages/38360454/-1/aa927bed1c7761a763b2af5308140063.jpg?ce=0&s=450x450"
+            alt=""></div>
+        <div class="div2">
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/38360454/-1/ce5c2f6df489ec5f7785d4a063a5d1a2.jpg?ce=0&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/450623287.jpg?k=0b09e3e39895eb273e1f8d85e6f6f4c5f5395d2fc69d0cbbd889a85feffd902b&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://pix8.agoda.net/hotelImages/38360454/-1/0a10017caea07291d7943963fc20bff4.jpg?ce=0&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/450591680.jpg?k=02cc59eb6738d9659be6cddd1aa098a88e5f61e91549b36034f442c574e1217d&s=100x100"
+              alt=""></div><br>
+        </div>
+        <div class="div3">
+          <div class="ph1"><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/450623205.jpg?k=ad1ce5988bdcd28404d1a44fe93de62bb9d9d5bd363f6c44d6cb5d6d584664d4&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/450623750.jpg?k=24fc49e826ade86a84cb1e26294b2cbcd6b070a79af22e5159d88813dd061ab0&s=100x100"
+              alt=""></div>
+          <div><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/450623350.jpg?k=b3c0b09a8718bfc8b11687a2f471138234d700171f0b97b60010bb06f1774cdc&s=100x100"
+              alt=""></div>
+          <div class="ph2"><img
+              src="https://q-xx.bstatic.com/xdata/images/hotel/max500/450623352.jpg?k=6aee2347eb2b7175a7cbdf955b44de5809eb5348f716d23628a561529fa7bbd5&s=100x100"
+              alt=""></div>
+        </div>
+      </article>
+      <article class="ar2">
+        <div class="div1"><a href="#">Effotel By Sayaji Bhopal</a></div>
+        <div class="star">
+          <div class="d1"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i></div>
+          <div class="d2"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="d3"><a href="#">Misrod,Bhopal-View on map</a></div>
+        </div>
+        <div class="div4">
+          <div class="d4">Valet parking</div>
+          <div class="d5">Shuttle service</div>
+          <div class="d6">+6</div>
+        </div>
+        <div class="div5">"One of the best stay in bhopal"</div>
+      </article>
+    </article>
+    <article class="ar3">
+      <div class="d7">Excellent</div>
+      <div class="d8">130 reviews</div>
+      <div class="d12"><i class="fa-regular fa-message"></i></div>
+      <div class="d9">Avg price per night</div>
+      <div class="d10">Rs. 5,514</div>
+      <div class="d11"><a href="#">Check availability</a></div>
+    </article>
+  </section>
+  <div class="d13"><a href="#">See all 933 hotels in bhopal</a></div>
+  <!-- =========================hero6==================== -->
+  <section class="hero6">
+    <article class="ar1">
+      <div class="div1">Fast facts about Bhopal, India</div>
+      <div class="div2">Accommodations 922 properties</div>
+      <div class="div3">Popular hotel The Vincent Inn</div>
+      <div class="div4">Popular area MP Nagar</div>
+      <div class="div5">Nightly rates from ₹447</div>
+      <div class="div6">Airport Raja Bhoj Airport</div>
+    </article>
+    <div class="div7">Where to stay in Bhopal</div>
+    <article class="ar2">
+      <article>
+        <div class="div1">
+          <div><a href="#">MP Nagar</a></div>
+          <div><a href="#">Bhopal Railway Station</a></div>
+          <div><a href="#">Ahmedpur Kalan</a></div>
+          <div><a href="#">Bhopal Lake VIP Road</a></div>
+          <div><a href="#">Habib Ganj</a></div>
+          <div><a href="#">Misrod</a></div>
+          <div><a href="#">Bhanpur</a></div>
+          <div><a href="#">Lalghati</a></div>
+          <div><a href="#">Danish Kunj</a></div>
+          <div><a href="#">Indrapuri</a></div>
+          <div><a href="#">Gulmohar Colony</a></div>
+          <div><a href="#">Shahpura</a></div>
+        </div>
+        <div class="div2">
+          <div><a href="#">285 hotels</a></div>
+          <div><a href="#">189 hotels</a></div>
+          <div><a href="#">59 hotels</a></div>
+          <div><a href="#">57 hotels</a></div>
+          <div><a href="#">52 hotels</a></div>
+          <div><a href="#">47 hotels</a></div>
+          <div><a href="#">45 hotels</a></div>
+          <div><a href="#">43 hotels</a></div>
+          <div><a href="#">42 hotels</a></div>
+          <div><a href="#">39 hotels</a></div>
+          <div><a href="#">39 hotels</a></div>
+          <div><a href="#">39 hotels</a></div>
+        </div>
+      </article>
+      <article>
+        <div class="div3">
+          <div><a href="#">Arere Colony</a></div>
+          <div><a href="#">Bhel</a></div>
+          <div><a href="#">Amarnath Colony</a></div>
+          <div><a href="#">Mandideep</a></div>
+          <div><a href="#">Bawaria Kalan</a></div>
+          <div><a href="#">Salaiya</a></div>
+          <div><a href="#">Chuna Bhatti</a></div>
+          <div><a href="#">Ratanpura Sadal</a></div>
+          <div><a href="#">Govindpura Industrial Area</a></div>
+          <div><a href="#">Behata</a></div>
+          <div><a href="#">Kopal</a></div>
+          <div><a href="#">Chhapri</a></div>
+        </div>
+        <div class="div4">
+          <div><a href="#">33 hotels</a></div>
+          <div><a href="#">22 hotels</a></div>
+          <div><a href="#">19 hotels</a></div>
+          <div><a href="#">18 hotels</a></div>
+          <div><a href="#">18 hotels</a></div>
+          <div><a href="#">18 hotels</a></div>
+          <div><a href="#">17 hotels</a></div>
+          <div><a href="#">15 hotels</a></div>
+          <div><a href="#">15 hotels</a></div>
+          <div><a href="#">14 hotels</a></div>
+          <div><a href="#">13 hotels</a></div>
+          <div><a href="#">12 hotels</a></div>
+        </div>
+      </article>
+      <article>
+        <div class="div5">
+          <div><a href="#">Lauhadi</a></div>
+          <div><a href="#">Eco Green City</a></div>
+          <div><a href="#">PIpaliya Dhakad</a></div>
+          <div><a href="#">Bairagarh Chichali</a></div>
+          <div><a href="#">Pipaliya Rani</a></div>
+          <div><a href="#">Nehru Nagar</a></div>
+          <div><a href="#">Bharat Nagar</a></div>
+          <div><a href="#">Mendora</a></div>
+          <div><a href="#">Prempura</a></div>
+          <div><a href="#">Suraj Nagar</a></div>
+          <div><a href="#">Rajharsh Colony</a></div>
+        </div>
+        <div class="div6">
+          <div><a href="#">12 hotels</a></div>
+          <div><a href="#">11 hotels</a></div>
+          <div><a href="#">10 hotels</a></div>
+          <div><a href="#">8 hotels</a></div>
+          <div><a href="#">7 hotels</a></div>
+          <div><a href="#">7 hotels</a></div>
+          <div><a href="#">5 hotels</a></div>
+          <div><a href="#">5 hotels</a></div>
+          <div><a href="#">4 hotels</a></div>
+          <div><a href="#">2 hotels</a></div>
+          <div><a href="#">2 hotels</a></div>
+        </div>
+      </article>
+      <!-- <hr> -->
+    </article>
+    <div class="div7">
+      <hr>
+    </div>
+  </section>
+  <section class="hero7">
+    <article class="ar1">
+      <div class="div1">All material herein © 2005–2024 Agoda Company Pte. Ltd. All Rights Reserved.</div>
+      <div class="div2">Agoda is part of Booking Holdings Inc., the world leader in online travel & related services.</div>
+    </article>
+    <article class="ar2">
+      <div class="div1"><img
+          src="data:image/png;base64,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"
+          alt=""></div>
+       <div class="div2"><img src="https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1492070051/c7r6gr6jzoenyaj7mbtz.png" alt=""></div>
+      <div class="div3"><img src="https://static.wixstatic.com/media/b69ee7_ee6f6772eb284792867a411297218488~mv2.png/v1/fill/w_200,h_122,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Kayak-Logo-2004.png" alt=""></div>
+      <div class="div4"><img src="https://www.traveltrendstoday.in/wp-content/uploads/2022/10/421d12a854b93fd8415555334cbeb46d.jpg" alt=""></div>
+      <div class="div5"><img src="data:image/jpeg;base64,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" alt=""></div> 
+    </article>
+     <div class="div6">sg-pc-6i-geo-web-user-7d49fc6f88-7cz4c</div>
+  </section>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init(1000);
+  </script>
+  <!-- <br><br><br><br><br><br><br><br><br><br><br> -->
+</body>
+
+</html>

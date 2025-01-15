@@ -1,0 +1,1278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+/* =====================================navbar===================================== */
+.topnav article{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.topnav article div a{
+    text-decoration: none;
+    color: black;
+}
+.topnav article .div1 img{
+    height: 70px;
+    width: 70px;
+}
+.topnav article .div10 img{
+    height: 20px;
+    width: 30px;
+}
+.btn{ 
+    color: red;
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(234, 67, 67);
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.btn1{ 
+    color: rgb(109, 180, 243);
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.btn1:hover{
+    color: white;
+    background-color: rgb(109, 180, 243);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.btn2{ 
+    color: rgb(109, 180, 243);
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    border: 1px solid rgb(109, 180, 243);
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.btn2:hover{
+    color: white;
+    background-color: rgb(109, 180, 243);
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    border: 1px solid rgb(109, 180, 243);
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+/* ===============================hero section================================= */
+
+.hero{
+    width: 1520px;
+    height: 90vh;
+   background-image: url("https://pix6.agoda.net/geo/city/8864/1_8864_02.jpg?ca=6&ce=1&s=1920x822");
+   background-repeat: no-repeat;
+   align-items: center;
+   background-size: cover;
+   overflow-x: hidden;
+   z-index: 5;
+    position: relative;
+    backdrop-filter: blur(4px) saturate(180%);
+    box-shadow: 0px 0px 2000px 40px black inset;
+
+}
+.hero .ar1 .div1{
+    padding: 250px 0px 0px 500px;
+    font-size: 40px;
+    color: white;
+}
+.hero .ar1 .div2{
+    padding: 0px 0px 0px 380px;
+    font-size: 25px;
+    color: white;
+}
+ .hero .ar2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .Search-bar{
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    background: rgba(225, 219, 219, 0.8);
+    display: flex;
+    align-items: center;
+ }
+ .Search-bar input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 300px;
+
+ }
+ .Search-bar{
+    padding: 0px 0px 0px 20px;
+    /* border-radius: 5px; */
+ }
+/* .hero .ar2 div{
+   display: flex;
+   
+}
+.hero .ar2 .div1{
+   margin-left: -700px;
+   height: 70px;
+   border: 0.5px solid blue;
+   font-size: 30px;
+   border-radius: 5px 5px 5px 5px;
+}
+.hero .ar2 .div input{
+   font-size: 25px;
+}
+.hero .ar2 .div2{
+   height: 70px;
+   font-size: 30px;
+   border-radius: 5px 5px 5px 5px;
+   padding-left: 10px;
+   border-radius: 7px;
+}
+.hero .ar2 .div3{
+   margin-left: -650px;
+   height: 70px;
+   border: 0.5px solid blue;
+   font-size: 30px;
+   border-radius: 5px 5px 5px 5px;
+   padding-left: 10px;
+}
+.hero .ar2 .div3 #h1{
+   background-color: rgb(103, 159, 223);
+   color: black;
+   border: 0.5px solid grey;
+   border-radius: 5px;
+} */
+ .hero .ar2 form #destination{
+   background-color: white;
+ }
+ .hero .ar2 form #d1{
+   background-color: white;
+   margin-left: 10px;
+   width: 150px;
+   border-radius: 5px 0px 0px 5px;
+   border: 0.5px solid blue;
+ }
+ .hero .ar2 form #d2{
+   background-color: white;
+   width: 150px;
+   border-radius: 0px 5px 5px 0px;
+   border: 0.5px solid blue;
+
+ }
+ .hero .ar2 form #d3{
+   background-color: white;
+   margin-left: 10px;
+   width: 250px;
+   height: 70px;
+   border-radius: 5px 5px 5px 5px;
+   border: none;
+ }
+ .hero .ar2 form #h1{
+   background-color: rgb(109, 180, 243);
+   color: white;
+   margin-left: 10px;
+   width: 150px;
+ }
+
+
+
+ /* ================== her01============================*/
+  .h12{
+    font-size: 30px;
+    padding: 20px 0px 0px 200px;
+ }
+ .hero1 {
+    display: flex;
+ }
+ .ar{
+    display: flex;
+ }
+ .hero1 article{
+    margin: 20px 0px 0px 200px;
+    
+ }
+ .hero1 .ar1{
+    padding: 30px 60px 0px 40px;
+    border: 0.1px solid gray;
+    height: 400px;
+    border-radius: 5px;
+    margin-top: 40px;
+ }
+ .hero1 .ar1 .star{
+    font-size: 20px;
+    margin-left: -20px;
+ }
+ .hero1 .ar1 label{
+    font-size: 17px;
+ } 
+ .hero1 .ar1 input{
+    height: 1rem;
+    width: 1rem;
+    margin: 10px;
+    margin-left: -20px;
+ }
+ .hero1 .ar1 .rel{
+    font-size: 20px;
+    margin-left: -20px;
+    margin-top: 20px;
+ }
+ .hero1 .ar2 .ar{
+    margin-left: -180px;
+    /* justify-content: space-evenly; */
+ }
+ .hero1 .ar2 .ar .div1{
+    border: 0.1px solid gray;
+    padding: 20px 60px 20px 60px;
+    font-size: 17px;
+    border-radius: 5px 0px 0px 5px;
+    color: white;
+    background-color: rgb(103, 159, 223);
+ }
+ .hero1 .ar2 .ar .div2{
+    border: 0.1px solid gray;
+    padding: 20px 60px 20px 60px;
+    font-size: 17px;
+    /* border-radius: 5px; */
+ }
+ .hero1 .ar2 .ar .div2:hover{
+    color: white;
+    background-color: rgb(103, 159, 223);
+ }
+ .hero1 .ar2 .ar .div3{
+    border: 0.1px solid gray;
+    padding: 20px 60px 20px 60px;
+    font-size: 17px;
+    /* border-radius: 5px; */
+ }
+ .hero1 .ar2 .ar .div3:hover{
+    color: white;
+    background-color: rgb(103, 159, 223);
+ }
+ .hero1 .ar2 .ar .div4{
+    border: 0.1px solid gray;
+    padding: 20px 60px 20px 60px;
+    font-size: 17px;
+    border-radius: 0px 5px 5px 0px;
+ }
+ .hero1 .ar2 .ar .div4:hover{
+    color: white;
+    background-color: rgb(103, 159, 223);
+ }
+ .hero1 .ar2 .photo .div1{
+   margin-left: 15px;
+   /* height: 100px;
+   width: 100px; */
+ }
+ .hero1 .ar2 .photo .div1 img{
+   height: 230px;
+   width: 250px;
+   border-radius: 5px 5px 0px 0px;
+ }
+ .hero1 .ar2 .photo .div2{
+   display: flex;
+   margin-left: 15px;
+
+ }
+ .hero1 .ar2 .photo .div2 img{
+   width: 62.5px;
+   margin-top: -3px;
+
+ }
+  .hero1 .ar2 .photo .div3{
+   display: flex;
+   margin-left: -250px;
+   margin-top: 42px;
+ } 
+ .hero1 .ar2 .photo .div3 img{
+   height: 40px;
+   
+ }
+ .hero1 .ar2 .photo .div3 .ph1 img{
+   border-radius: 0px 0px 0px 5px;
+ }
+ .hero1 .ar2 .photo .div3 .ph2 img{
+   border-radius: 0px 0px 5px 0px;
+ }
+ .hero1 .ar3{
+   margin-top: -310px;
+ }
+ .hero1 .ar3 .div1{
+   font-size: 25px;
+   margin-left: -80px;
+ }
+ .hero1 .ar3 .div2{
+   display: flex;
+   /* margin: 10px; */
+   margin-left: -280px;
+
+ }
+ .hero1 .ar3 .div3{
+   display: flex;
+   margin-left: -80px;
+ }
+ .hero1 .ar2 .div2 .h1{
+   color: rgb(238, 238, 114);
+   font-size: 15px;
+ }
+ .hero1 .ar2 .div2 .h2{
+   color:  rgb(103, 159, 223);
+   margin-top: 20px;
+   margin-left: 10px;
+ }
+ .hero1 .ar2 .div2 .h3{
+   color:  rgb(103, 159, 223);
+   margin-top: 20px;
+   margin-left: 10px;
+ }
+ .hero1 .ar3 .div3{
+   margin-top: 15px;
+   font-size: 13px;
+ }
+ .hero1 .ar3 .div3 .h4{
+   border: 0.5px solid grey;
+   padding: 4px 6px 4px 6px;
+   border-radius: 2px;
+   margin-right: 10px;
+
+ }
+ .hero1 .ar3 .div3 .h5{
+   border: 0.5px solid grey;
+   padding: 4px 6px 4px 6px;
+   border-radius: 2px;
+   margin-right: 10px;
+
+ }
+ .hero1 .ar3 .div3 .h6{
+   border: 0.5px solid grey;
+   padding: 4px 6px 4px 6px;
+   border-radius: 2px;
+   margin-right: 10px;
+
+ }
+ .hero1 .ar3 .div3 .h7{
+   border: 0.5px solid grey;
+   padding: 4px 6px 4px 6px;
+   border-radius: 2px;
+ }
+.hero1 .ar3 .div4{
+   margin-top: 20px;
+   margin-left: -80px;
+}
+.hero1 .photo{
+   border: 0.5px solid grey;
+   padding: 15px 0px 15px 0px;
+   margin-left: -170px ;
+   margin-right: 325px;
+   border-radius: 5px 0px 0px 5px;
+}
+.hero1 .ar4{
+   margin-left: 505px;
+   margin-right: -500px;
+   border: 0.5px solid gray;
+   padding: 45px 20px 10px 0px;
+   /* height: 500px; */
+   margin-top: -185px;
+   border-radius: 0px 5px 5px 0px;
+   margin-right: 70px;
+
+}
+.hero1 .ar4 .div1{
+   /* margin-top: 180px; */
+   margin-left: 120px;
+}
+.hero1 .ar4 .div2{
+   /* margin-top: 180px; */
+   margin-left: 100px;
+}
+.hero1 .ar4 .div3{
+   margin-top: 150px;
+   margin-left: 100px;
+}
+.hero1 .ar4 .div4{
+   font-size: 25px;
+   color: red;
+   margin-left: 120px;
+   margin-top: 10px;
+}
+.hero1 .ar4 .btn{
+   margin-top: 20px;
+   background-color: rgb(103, 159, 223);
+   color: white;
+   margin-left: 100px;
+   /* padding: 10px 10px 10px 10px; */
+
+}
+
+ /* ======================hero2===================== */
+ .hero2 .sec .ar1 .div1 img{
+   height: 230px;
+   width: 250px;
+   border-radius: 5px 5px 0px 0px;
+   margin-left: 20px;
+   margin-top: 30px;
+ }
+ .hero2 .sec .ar1 .div2{
+   display: flex;
+   margin-left: 20px;
+ }
+ .hero2 .sec .ar1 .div2 img{
+   width: 62.5px;
+   height: 45px;
+   margin-top: -3px;
+   
+ }
+ .hero2 .sec .ar1 .div3 {
+   display: flex;
+   margin-left: 20px;
+
+ }
+ .hero2 .sec .ar1 .div3 img{
+   width: 62.5px;
+   height: 45px;
+   margin-top: -3px;
+   
+ }
+ .hero2 .sec .ar1 .div3 .ph1 img{
+   border-radius: 0px 0px 0px 5px;
+ }
+ .hero2 .sec .ar1 .div3 .ph2 img{
+   border-radius: 0px 0px 5px 0px;
+ }
+ .hero2 .sec{
+   display: flex;
+ }
+ .hero2 {
+   display: flex;
+ }
+ .hero2  .sec .ar2 .div1 a{
+   text-decoration: none;
+   color: black;
+ }
+ .hero2 .sec .ar2 .div1{
+   margin-top: 30px;
+   margin-left: 20px;
+   font-size: 20px;
+ }
+ .hero2 .sec .ar2 .star{
+   display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+.hero2 .sec .ar2 .star .d1{
+   color: rgb(218, 195, 68);
+}
+.hero2 .sec .ar2 .star .d2{
+   margin-left: 8px;
+  color:  rgb(103, 159, 223);
+   
+}
+.hero2 .sec .ar2 .star .d3{
+   margin-left: 5px;
+   color:  rgb(103, 159, 223);
+}
+ .hero2 .sec .ar2 .star .d3 a{
+    text-decoration: none;
+    color:  rgb(103, 159, 223);
+ }
+ .hero2 .sec .ar2 .div4{
+   display: flex;
+   margin-left: 20px;
+  margin-top: 15px;
+}
+.hero2 .sec .ar2 .div4 .d4{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+   margin-right: 5px;
+}
+.hero2 .sec .ar2 .div4 .d5{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+   margin-right: 5px;
+
+}
+.hero2 .sec .ar2 .div4 .d6{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+}
+.hero2 .sec .ar2 .div5{
+   margin-left: 20px;
+  margin-top: 20px;
+}
+.hero2 .ar3{
+   margin-top: 20px;
+   margin-left: 150px;
+}
+.hero2 .ar3 .d7{
+   font-size: 17px;
+   margin-top: 20px;
+   margin-left: 100px;
+}
+.hero2 .ar3 .d8{
+   margin-left: 8px;
+   margin-left: 110px;
+}
+.hero2 .ar3 .d12{
+   margin-left: 200px;
+   margin-top: -40px;
+   font-size: 35px;
+   color:  rgb(103, 159, 223);
+
+}
+.hero2 .ar3 .d9{
+   margin-top: 160px;
+   font-size: 17px;
+   margin-left: 100px;
+
+
+}.hero2 .ar3 .d10{
+   font-size: 25px;
+   margin-left: 40px;
+   margin-top: 5px;
+   margin-left: 130px;
+
+
+}
+.hero2 .ar3 .d11 a{
+   text-decoration: none;
+   color: white;
+}
+.hero2 .ar3 .d11{
+   text-decoration: none;
+   margin-top: 40px;
+   border: 0.5px solid grey;
+   color: white;
+   background-color:  rgb(103, 159, 223);
+   padding: 12px 10px 12px 50px ;
+   border-radius: 5px;
+   margin-left: 50px;
+
+
+}
+.hero2 .sec{
+   border: 0.5px solid grey;
+  margin-left: 435px;
+  margin-top: 20px;
+  border-radius: 5px 0px 0px 5px ;
+  margin-bottom: 70px;
+  padding: 0px 40px 20px 0px;
+}
+.hero2 .ar3{
+   border: 0.5px solid grey;
+   padding: 0px 20px 0px 0px ;
+   margin-left: 0px;
+   margin-bottom: 70px;
+   border-radius: 0px 5px 5px 0px;
+}
+ /* ==================hero3======================= */
+ .hero3 .sec .ar1 .div1 img{
+   height: 230px;
+   width: 250px;
+   border-radius: 5px 5px 0px 0px;
+   margin-left: 20px;
+   margin-top: 30px;
+ }
+ .hero3 .sec .ar1 .div2{
+   display: flex;
+   margin-left: 20px;
+ }
+ .hero3 .sec .ar1 .div2 img{
+   width: 62.5px;
+   height: 45px;
+   margin-top: -3px;
+   
+ }
+ .hero3 .sec .ar1 .div3 {
+   display: flex;
+   margin-left: 20px;
+
+ }
+ .hero3 .sec .ar1 .div3 img{
+   width: 62.5px;
+   height: 45px;
+   margin-top: -3px;
+   
+ }
+ .hero3 .sec .ar1 .div3 .ph1 img{
+   border-radius: 0px 0px 0px 5px;
+ }
+ .hero3 .sec .ar1 .div3 .ph2 img{
+   border-radius: 0px 0px 5px 0px;
+ }
+ .hero3 .sec{
+   display: flex;
+ }
+ .hero3 {
+   display: flex;
+ }
+ .hero3  .sec .ar2 .div1 a{
+   text-decoration: none;
+   color: black;
+ }
+ .hero3 .sec .ar2 .div1{
+   margin-top: 30px;
+   margin-left: 20px;
+   font-size: 20px;
+ }
+ .hero3 .sec .ar2 .star{
+   display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+.hero3 .sec .ar2 .star .d1{
+   color: rgb(218, 195, 68);
+}
+.hero3 .sec .ar2 .star .d2{
+   margin-left: 8px;
+  color:  rgb(103, 159, 223);
+   
+}
+.hero3 .sec .ar2 .star .d3{
+   margin-left: 5px;
+   color:  rgb(103, 159, 223);
+}
+ .hero3 .sec .ar2 .star .d3 a{
+    text-decoration: none;
+    color:  rgb(103, 159, 223);
+ }
+ .hero3 .sec .ar2 .div4{
+   display: flex;
+   margin-left: 20px;
+  margin-top: 15px;
+}
+.hero3 .sec .ar2 .div4 .d4{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+   margin-right: 5px;
+}
+.hero3 .sec .ar2 .div4 .d5{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+   margin-right: 5px;
+
+}
+.hero3 .sec .ar2 .div4 .d6{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+}
+.hero3 .sec .ar2 .div5{
+   margin-left: 20px;
+  margin-top: 20px;
+}
+.hero3 .ar3{
+   margin-top: 20px;
+   margin-left: 150px;
+}
+.hero3 .ar3 .d7{
+   font-size: 17px;
+   margin-top: 20px;
+   margin-left: 100px;
+}
+.hero3 .ar3 .d8{
+   margin-left: 8px;
+   margin-left: 110px;
+}
+.hero3 .ar3 .d12{
+   margin-left: 200px;
+   margin-top: -40px;
+   font-size: 35px;
+   color:  rgb(103, 159, 223);
+
+}
+.hero3 .ar3 .d9{
+   margin-top: 160px;
+   font-size: 17px;
+   margin-left: 100px;
+
+
+}.hero3 .ar3 .d10{
+   font-size: 25px;
+   margin-left: 40px;
+   margin-top: 5px;
+   margin-left: 130px;
+
+
+}
+.hero3 .ar3 .d11 a{
+   text-decoration: none;
+   color: white;
+}
+.hero3 .ar3 .d11{
+   text-decoration: none;
+   margin-top: 40px;
+   border: 0.5px solid grey;
+   color: white;
+   background-color:  rgb(103, 159, 223);
+   padding: 12px 10px 12px 50px ;
+   border-radius: 5px;
+   margin-left: 50px;
+
+
+}
+.hero3 .sec{
+   border: 0.5px solid grey;
+  margin-left: 435px;
+  margin-top: -40px;
+  border-radius: 5px 0px 0px 5px ;
+  margin-bottom: 70px;
+  padding: 0px 40px 20px 0px;
+}
+.hero3 .ar3{
+   border: 0.5px solid grey;
+   padding: 0px 20px 0px 0px ;
+   margin-left: 0px;
+   margin-bottom: 70px;
+   margin-top: -40px;
+   border-radius: 0px 5px 5px 0px;
+}
+/* =======================hero4==================== */
+.hero4 .sec .ar1 .div1 img{
+   height: 230px;
+   width: 250px;
+   border-radius: 5px 5px 0px 0px;
+   margin-left: 20px;
+   margin-top: 30px;
+ }
+ .hero4 .sec .ar1 .div2{
+   display: flex;
+   margin-left: 20px;
+ }
+ .hero4 .sec .ar1 .div2 img{
+   width: 62.5px;
+   height: 45px;
+   margin-top: -3px;
+   
+ }
+ .hero4 .sec .ar1 .div3 {
+   display: flex;
+   margin-left: 20px;
+
+ }
+ .hero4 .sec .ar1 .div3 img{
+   width: 62.5px;
+   height: 45px;
+   margin-top: -3px;
+   
+ }
+ .hero4 .sec .ar1 .div3 .ph1 img{
+   border-radius: 0px 0px 0px 5px;
+ }
+ .hero4 .sec .ar1 .div3 .ph2 img{
+   border-radius: 0px 0px 5px 0px;
+ }
+ .hero4 .sec{
+   display: flex;
+ }
+ .hero4 {
+   display: flex;
+ }
+ .hero4  .sec .ar2 .div1 a{
+   text-decoration: none;
+   color: black;
+ }
+ .hero4 .sec .ar2 .div1{
+   margin-top: 30px;
+   margin-left: 20px;
+   font-size: 20px;
+ }
+ .hero4 .sec .ar2 .star{
+   display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+.hero4 .sec .ar2 .star .d1{
+   color: rgb(218, 195, 68);
+}
+.hero4 .sec .ar2 .star .d2{
+   margin-left: 8px;
+  color:  rgb(103, 159, 223);
+   
+}
+.hero4 .sec .ar2 .star .d3{
+   margin-left: 5px;
+   color:  rgb(103, 159, 223);
+}
+ .hero4 .sec .ar2 .star .d3 a{
+    text-decoration: none;
+    color:  rgb(103, 159, 223);
+ }
+ .hero4 .sec .ar2 .div4{
+   display: flex;
+   margin-left: 20px;
+  margin-top: 15px;
+}
+.hero4 .sec .ar2 .div4 .d4{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+   margin-right: 5px;
+}
+.hero4 .sec .ar2 .div4 .d5{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+   margin-right: 5px;
+
+}
+.hero4 .sec .ar2 .div4 .d6{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+}
+.hero4 .sec .ar2 .div5{
+   margin-left: 20px;
+  margin-top: 20px;
+}
+.hero4 .ar3{
+   margin-top: 20px;
+   margin-left: 150px;
+}
+.hero4 .ar3 .d7{
+   font-size: 17px;
+   margin-top: 20px;
+   margin-left: 100px;
+}
+.hero4 .ar3 .d8{
+   margin-left: 8px;
+   margin-left: 110px;
+}
+.hero4 .ar3 .d12{
+   margin-left: 200px;
+   margin-top: -40px;
+   font-size: 35px;
+   color:  rgb(103, 159, 223);
+
+}
+.hero4 .ar3 .d9{
+   margin-top: 160px;
+   font-size: 17px;
+   margin-left: 100px;
+
+
+}.hero4 .ar3 .d10{
+   font-size: 25px;
+   margin-left: 40px;
+   margin-top: 5px;
+   margin-left: 130px;
+
+
+}
+.hero4 .ar3 .d11 a{
+   text-decoration: none;
+   color: white;
+}
+.hero4 .ar3 .d11{
+   text-decoration: none;
+   margin-top: 40px;
+   border: 0.5px solid grey;
+   color: white;
+   background-color:  rgb(103, 159, 223);
+   padding: 12px 10px 12px 50px ;
+   border-radius: 5px;
+   margin-left: 50px;
+
+
+}
+.hero4 .sec{
+   border: 0.5px solid grey;
+  margin-left: 435px;
+  margin-top: -40px;
+  border-radius: 5px 0px 0px 5px ;
+  margin-bottom: 70px;
+  padding: 0px 35px 20px 0px;
+}
+.hero4 .ar3{
+   border: 0.5px solid grey;
+   padding: 0px 20px 0px 0px ;
+   margin-left: 0px;
+   margin-bottom: 70px;
+   border-radius: 0px 5px 5px 0px;
+  margin-top: -40px;
+
+}
+ /* ==========================hero5==================== */
+ .hero5 .sec .ar1 .div1 img{
+   height: 230px;
+   width: 250px;
+   border-radius: 5px 5px 0px 0px;
+   margin-left: 20px;
+   margin-top: 30px;
+ }
+ .hero5 .sec .ar1 .div2{
+   display: flex;
+   margin-left: 20px;
+ }
+ .hero5 .sec .ar1 .div2 img{
+   width: 62.5px;
+   height: 45px;
+   margin-top: -3px;
+   
+ }
+ .hero5 .sec .ar1 .div3 {
+   display: flex;
+   margin-left: 20px;
+
+ }
+ .hero5 .sec .ar1 .div3 img{
+   width: 62.5px;
+   height: 45px;
+   margin-top: -3px;
+   
+ }
+ .hero5 .sec .ar1 .div3 .ph1 img{
+   border-radius: 0px 0px 0px 5px;
+ }
+ .hero5 .sec .ar1 .div3 .ph2 img{
+   border-radius: 0px 0px 5px 0px;
+ }
+ .hero5 .sec{
+   display: flex;
+ }
+ .hero5 {
+   display: flex;
+ }
+ .hero5  .sec .ar2 .div1 a{
+   text-decoration: none;
+   color: black;
+ }
+ .hero5 .sec .ar2 .div1{
+   margin-top: 30px;
+   margin-left: 20px;
+   font-size: 20px;
+ }
+ .hero5 .sec .ar2 .star{
+   display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+.hero5 .sec .ar2 .star .d1{
+   color: rgb(218, 195, 68);
+}
+.hero5 .sec .ar2 .star .d2{
+   margin-left: 8px;
+  color:  rgb(103, 159, 223);
+   
+}
+.hero5 .sec .ar2 .star .d3{
+   margin-left: 5px;
+   color:  rgb(103, 159, 223);
+}
+ .hero5 .sec .ar2 .star .d3 a{
+    text-decoration: none;
+    color:  rgb(103, 159, 223);
+ }
+ .hero5 .sec .ar2 .div4{
+   display: flex;
+   margin-left: 20px;
+  margin-top: 15px;
+}
+.hero5 .sec .ar2 .div4 .d4{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+   margin-right: 5px;
+}
+.hero5 .sec .ar2 .div4 .d5{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+   margin-right: 5px;
+
+}
+.hero5 .sec .ar2 .div4 .d6{
+   border: 0.5px solid grey;
+   padding: 5px 5px 5px 5px;
+   border-radius: 3px;
+}
+.hero5 .sec .ar2 .div5{
+   margin-left: 20px;
+  margin-top: 20px;
+}
+.hero5 .ar3{
+   margin-top: 20px;
+   margin-left: 150px;
+}
+.hero5 .ar3 .d7{
+   font-size: 17px;
+   margin-top: 20px;
+   margin-left: 100px;
+}
+.hero5 .ar3 .d8{
+   margin-left: 8px;
+   margin-left: 110px;
+}
+.hero5 .ar3 .d12{
+   margin-left: 200px;
+   margin-top: -40px;
+   font-size: 35px;
+   color:  rgb(103, 159, 223);
+
+}
+.hero5 .ar3 .d9{
+   margin-top: 160px;
+   font-size: 17px;
+   margin-left: 100px;
+
+
+}.hero5 .ar3 .d10{
+   font-size: 25px;
+   margin-left: 40px;
+   margin-top: 5px;
+   margin-left: 130px;
+
+
+}
+.hero5 .ar3 .d11 a{
+   text-decoration: none;
+   color: white;
+}
+.hero5 .ar3 .d11{
+   text-decoration: none;
+   margin-top: 40px;
+   border: 0.5px solid grey;
+   color: white;
+   background-color:  rgb(103, 159, 223);
+   padding: 12px 10px 12px 50px ;
+   border-radius: 5px;
+   margin-left: 50px;
+
+
+}
+.hero5 .sec{
+   border: 0.5px solid grey;
+  margin-left: 435px;
+  margin-top: -40px;
+  border-radius: 5px 0px 0px 5px ;
+  margin-bottom: 70px;
+  padding: 0px 125px 20px 0px;
+}
+.hero5 .ar3{
+   border: 0.5px solid grey;
+   padding: 0px 20px 0px 0px ;
+   margin-left: 0px;
+   margin-bottom: 70px;
+   border-radius: 0px 5px 5px 0px;
+  margin-top: -40px;
+
+}
+.d13 a{
+   margin-left: 430px;
+   text-decoration: none;
+   background-color: rgb(103, 159, 223);
+   padding: 15px 420px 15px 350px;
+   border-radius: 5px 5px 5px 5px ;
+   color: white;
+}
+/* =========================hero6===================== */
+.hero6 .ar1{
+   margin-top: 50px;
+   margin-left: 200px;
+}
+.hero6 .ar1 .div1{
+   font-size: 22px;
+}
+.hero6 .ar1 .div2{
+   margin-top: 20px;
+   font-size: 17px;
+   background-color: rgb(250, 246, 246);
+   padding: 10px 0px 10px 30px;
+   margin-right: 140px;
+
+}
+.hero6 .ar1 .div3{
+   margin-top: 10px;
+   margin-left: 30px;
+   font-size: 17px;
+}
+.hero6 .ar1 .div4{
+   margin-top: 10px;
+   font-size: 17px;
+   background-color: rgb(250, 246, 246);
+   padding: 10px 0px 10px 30px;
+   margin-right: 140px;
+
+}
+.hero6 .ar1 .div5{
+   margin-top: 10px;
+   margin-left: 30px;
+   font-size: 17px;
+}
+.hero6 .ar1 .div6{
+   margin-top: 10px;
+   font-size: 17px;
+   background-color:rgb(250, 246, 246);
+   padding: 10px 0px 10px 30px;
+   margin-right: 140px;
+
+}
+.hero6 .ar2 {
+   display: flex;
+}
+.hero6 .ar2 article {
+   display: flex;
+}
+.hero6 .ar2 article div a{
+   text-decoration: none;
+}
+.hero6 .div7{
+   margin: 20px 0px 0px 200px;
+   font-size: 30px;
+}
+.hero6 .ar2{
+   justify-content: space-evenly;
+}
+.hero6 .ar2 .div1{
+   margin-top: 10px;
+   /* margin-left: -20px; */
+}
+.hero6 .ar2 .div1 a{
+   color: blue;
+}
+.hero6 .ar2 .div2{
+   margin-left: 150px;
+   margin-top: 10px;
+}
+.hero6 .ar2 .div2 a{
+   color: black;
+}
+.hero6 .ar2 .div3{
+   margin-left: -180px;
+   margin-top: 10px;
+
+}
+.hero6 .ar2 .div3 a{
+   color: blue;
+}
+.hero6 .ar2 .div4{
+   margin-top: 10px;
+   margin-left: 150px;
+}
+.hero6 .ar2 .div4 a{
+   color: black;
+}
+.hero6 .ar2 .div5{
+   margin-left: -180px;
+   margin-top: 10px;
+}
+.hero6 .ar2 .div5 a{
+   color: blue;
+}
+.hero6 .ar2 .div6{
+   margin-left: 150px;
+   margin-top: 10px;
+}
+.hero6 .ar2 .div6 a{
+   color: black;
+}
+.hero6 .ar7{
+   margin-left: -100px;
+   margin-right: 100px;
+}
+.hero6 .div7{
+   margin-right: 200px;
+}
+.hero7{
+   background-color: rgb(41, 39, 39);
+}
+.hero7 .ar1 .div1{
+   color: white;
+   margin-left: 500px;
+   padding-top: 50px;
+}
+.hero7 .ar1 .div2{
+   color: white;
+   margin-left: 470px;
+
+}
+.hero7 .ar2{
+   display: flex;
+}
+.hero7 .ar2 .div1 img{
+   height: 50px;
+   width: 80px;
+   margin-top: 50px;
+   margin-left: 300px;
+   background-color: black;
+}
+.hero7 .ar2 .div2 img{
+   height: 50px;
+   width: 80px;
+   margin-top: 50px;
+   margin-left: 150px;
+   background-color: black;
+
+}
+.hero7 .ar2 .div3 img{
+   height: 50px;
+   width: 80px;
+   margin-top: 50px;
+   margin-left: 150px;
+   /* background-color: black; */
+
+}
+.hero7 .ar2 .div4 img{
+   height: 50px;
+   width: 80px;
+   margin-top: 50px;
+   margin-left: 150px;
+   /* background-color: black; */
+
+}
+.hero7 .ar2 .div5 img{
+   height: 50px;
+   width: 80px;
+   margin-top: 50px;
+   margin-left: 150px;
+   /* background-color: black; */
+
+}
+.hero7 .div6{
+   color: white;
+   margin-top: 50px;
+   margin-left: 600px;
+   /* margin-bottom: 20px; */
+}
