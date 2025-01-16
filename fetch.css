@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+/* =====================================navbar===================================== */
+.topnav{
+    background-color: rgb(239, 222, 222);
+}
+.topnav article{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.topnav article div a{
+    text-decoration: none;
+    color: black;
+}
+.topnav article .div1 img{
+    height: 70px;
+    width: 70px;
+}
+.topnav article .div10 img{
+    height: 20px;
+    width: 30px;
+}
+.btn{ 
+    color: red;
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(234, 67, 67);
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.btn1{ 
+    color: rgb(109, 180, 243);
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.btn1:hover{
+    color: white;
+    background-color: rgb(109, 180, 243);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.btn2{ 
+    color: rgb(109, 180, 243);
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    border: 1px solid rgb(109, 180, 243);
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.btn2:hover{
+    color: white;
+    background-color: rgb(109, 180, 243);
+    width: 135px;
+    height: 30px;
+    text-align: center;
+    z-index: 5;
+    border: 1px solid rgb(109, 180, 243);
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.hero7{
+    background-color: rgb(41, 39, 39);
+ }
+ .hero7 .ar1 .div1{
+    color: white;
+    margin-left: 500px;
+    padding-top: 50px;
+ }
+ .hero7 .ar1 .div2{
+    color: white;
+    margin-left: 470px;
+ 
+ }
+ .hero7 .ar2{
+    display: flex;
+ }
+ .hero7 .ar2 .div1 img{
+    height: 50px;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: black;
+ }
+ .hero7 .ar2 .div2 img{
+    height: 50px;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 150px;
+    background-color: black;
+ 
+ }
+ .hero7 .ar2 .div3 img{
+    height: 50px;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 150px;
+    /* background-color: black; */
+ 
+ }
+ .hero7 .ar2 .div4 img{
+    height: 50px;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 150px;
+    /* background-color: black; */
+ 
+ }
+ .hero7 .ar2 .div5 img{
+    height: 50px;
+    width: 80px;
+    margin-top: 50px;
+    margin-left: 150px;
+    /* background-color: black; */
+ 
+ }
+ .hero7 .div6{
+    color: white;
+    margin-top: 50px;
+    margin-left: 600px;
+    /* margin-bottom: 20px; */
+ }.hero7{
+    margin-top: 335px;
+ }
+ /* ========================================================= */
+ .hero #t1{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+    color: black;
+    background-color: rgb(221, 215, 215);
+ }
+ .hero #editform{
+    margin-left: 650px;
+ }

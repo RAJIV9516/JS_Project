@@ -102,11 +102,11 @@ function insert_data(){
 
  function mydata(id){
     let updata = {
-        name: document.querySelector('#id1').value,
-        id: document.querySelector('#city1').value,
-        age: document.querySelector('#checkin1').value,
-        contact: document.querySelector('#checkout1').value,
-        city: document.querySelector('#room1').value
+        id: document.querySelector('#id1').value,
+        city: document.querySelector('#city1').value,
+        checkin: document.querySelector('#checkin1').value,
+        checkout: document.querySelector('#checkout1').value,
+        room: document.querySelector('#room1').value
 
     }
     fetch(`http://localhost:3000/emp/${id}`,{
