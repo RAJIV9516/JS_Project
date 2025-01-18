@@ -89,6 +89,106 @@ html{
     padding-top: 10px;
 }
 
+#smallnav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 50px 20px 50px;
+   display: none;
+}
+
+#shownav{
+   width: 1400px;
+   height: 100vh;
+   background-color: white;
+   position: absolute;
+   top: 0px;
+   left: -3000px;
+   /* opacity: 0.1; */
+   /* padding: 20px 0px 0px 20px; */
+
+}
+
+  @media screen and (max-width :271px){
+   .topnav{
+      display: none;
+   }
+   #smallnav{
+      display: flex;
+      /* padding: 0px 100px 0px 0px; */
+      justify-content: space-evenly;
+      box-shadow: 0px 0px 2px 0.5px rgb(232, 230, 230);
+      /* width: 1400px; */
+  }
+  #smallnav #div1 img{
+      height: 30px;
+      margin-left: -30px;
+  }
+  #smallnav #div2{
+      font-size: 25px;
+      margin-left: 150px;
+   }
+  #smallnav #div3 a{
+       text-decoration: none;
+       font-size: 20px;
+  }
+  #smallnav #div3{
+      background-color: rgb(248, 216, 14);
+      padding: 20px ;
+      width:100px; 
+      height: 30px;
+      margin-top: 15px;
+      border-radius: 5px;
+      /* margin: 30px 0px 0px 650px; */
+      margin-left: 950px;
+  
+  }
+  #shownav{
+        font-size: 27px;
+
+  }
+  #shownav div a{
+      text-decoration: none;
+      padding: 40px 0px 0px 100px;
+
+  }
+  #shownav div{
+      padding: 32px;
+  }
+  #shownav #div1{
+      display: flex;
+      justify-content:space-between;
+  }
+  #shownav #div2{
+      font-size: 40px;
+      padding-top: 30px;
+  }
+  #shownav #div5{
+      padding: 0px 50px 0px 130px;
+  }
+  #shownav #div6{
+      font-size: 30px ;
+      display: flex;
+      justify-content: space-between;
+
+  }
+  #shownav #div7{
+      font-size: 27px ;
+      display: flex;
+      justify-content: space-between;
+
+  }
+  #shownav #div8{
+      padding: 0px 50px 0px 130px;
+  }
+
+  #input1:checked ~ #shownav{
+      left: 0px;
+      /* transition:left 0.5s; */
+  }
+
+  }
+
 /* ===============================hero section================================= */
 
 .hero{
@@ -207,6 +307,13 @@ html{
    color: white;
    margin-left: 10px;
    width: 150px;
+ }
+
+ @media screen and (max-width :271px){
+   .hero{
+      width: 290px;
+      height: 300px;
+   }
  }
 
 
@@ -438,7 +545,29 @@ html{
 
 }
 
- /* ======================hero2===================== */
+@media screen and (max-width :271px){
+   .h12{
+      font-size: 28px;
+      padding: 20px 0px 0px 50px;
+
+   }
+   .hero1{
+      display: none;
+   }
+
+}
+@media screen and (max-width :396px){
+   .h12{
+      font-size: 28px;
+      padding: 20px 0px 0px 50px;
+
+   }
+   .hero1{
+      display: none;
+   }
+}
+
+ /* ======================hero2======================================= */
  .hero2 .sec .ar1 .div1 img{
    height: 230px;
    width: 250px;
@@ -602,7 +731,169 @@ html{
    margin-bottom: 70px;
    border-radius: 0px 5px 5px 0px;
 }
- /* ==================hero3======================= */
+
+@media screen and (max-width :271px){
+   .hero2{
+      margin-left: -430px;
+   }
+   .hero2 .sec .ar1 .div1 img{
+      height: 100px;
+      width: 100px;
+      border-radius: 5px 5px 0px 0px;
+      margin-left: 10px;
+      margin-top: 30px;
+    }
+    .hero2 .sec .ar1 .div2{
+      display: flex;
+      margin-left: 10px;
+    }
+    .hero2 .sec .ar1 .div2 img{
+      width: 25px;
+      height: 30px;
+      margin-top: -3px;
+      
+    }
+    .hero2 .sec .ar1 .div3 {
+      display: flex;
+      margin-left: 10px;
+   
+    }
+    .hero2 .sec .ar1 .div3 img{
+      width: 25px;
+      height: 30px;
+      margin-top: -3px;
+      
+    }
+    .hero2  .sec .ar2 .div1 a{
+      text-decoration: none;
+      color: black;
+    }
+    .hero2 .sec .ar2 .div1{
+      margin-top: 30px;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+    .hero2 .sec .ar2 .star{
+      display: flex;
+     margin-left: 20px;
+     margin-top: 20px;
+   
+   }
+   .hero2 .sec .ar2 .star .d1{
+      color: rgb(218, 195, 68);
+   }
+}
+@media screen and (max-width :396px){
+   .hero2{
+      margin-left: -430px;
+      /* margin-right: 20px;*/
+   }
+   .hero2 .sec .ar1 .div1 img{
+      height: 100px;
+      width: 100px;
+      border-radius: 5px 5px 0px 0px;
+      margin-left: 10px;
+      margin-top: 30px;
+    }
+    .hero2 .sec .ar1 .div2{
+      display: flex;
+      margin-left: 10px;
+    }
+    .hero2 .sec .ar1 .div2 img{
+      width: 25px;
+      height: 30px;
+      margin-top: -3px;
+      
+    }
+    .hero2 .sec .ar1 .div3 {
+      display: flex;
+      margin-left: 10px;
+   
+    }
+    .hero2 .sec .ar1 .div3 img{
+      width: 25px;
+      height: 30px;
+      margin-top: -3px;
+      
+    }
+    .hero2  .sec .ar2 .div1 a{
+      text-decoration: none;
+      color: black;
+    }
+    .hero2 .sec .ar2 .div1{
+      margin-top: 30px;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+    .hero2 .sec .ar2 .star{
+      display: flex;
+     /* margin-left: 20px; */
+     margin-top: 20px;
+   
+   }
+   .hero2 .sec .ar2 .star .d1{
+      color: rgb(218, 195, 68);
+      display: flex;
+   }
+   .hero2 .sec .ar2 .star .d2{
+      margin-left: 30px;
+     color:  rgb(103, 159, 223);
+      
+   }
+   .hero2 .sec .ar2 .star .d3{
+      margin-left: 5px;
+      color:  rgb(103, 159, 223);
+   }
+    .hero2 .sec .ar2 .star .d3 a{
+       text-decoration: none;
+       color:  rgb(103, 159, 223);
+    }
+    .hero2 .sec .ar2 .div4{
+      display: flex;
+      margin-left: 20px;
+     margin-top: 15px;
+   }
+   .hero2 .sec .ar2 .div4 .d4{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+      margin-right: 5px;
+   }
+   .hero2 .sec .ar2 .div4 .d5{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+      margin-right: 5px;
+   
+   }
+   .hero2 .sec .ar2 .div4 .d6{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+   }
+   .hero2 .sec .ar2 .div5{
+      margin-left: 20px;
+     margin-top: 20px;
+   }
+
+   .hero2 .ar3{
+      margin-top: 20px;
+      margin-left: 150px;
+      display: none;
+   }
+   .hero2 .sec{
+      display: flex;
+      border: 0.5px solid grey;
+      margin-left: 435px;
+      margin-top: 20px;
+      border-radius: 5px 0px 0px 5px ;
+      margin-bottom: 70px;
+      padding: 0px 10px 20px 0px;
+    }
+
+}
+
+ /* ==================hero3============================================= */
  .hero3 .sec .ar1 .div1 img{
    height: 230px;
    width: 250px;
@@ -766,6 +1057,177 @@ html{
    margin-bottom: 70px;
    margin-top: -40px;
    border-radius: 0px 5px 5px 0px;
+}
+
+@media screen and (max-width :396px){
+   .hero3 .sec .ar1 .div1 img{
+      height: 100px;
+      width: 100px;
+      border-radius: 5px 5px 0px 0px;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+    .hero3 .sec .ar1 .div2{
+      display: flex;
+      margin-left: 20px;
+    }
+    .hero3 .sec .ar1 .div2 img{
+      width: 25px;
+      height: 30px;
+      margin-top: -3px;
+      
+    }
+    .hero3 .sec .ar1 .div3 {
+      display: flex;
+      margin-left: 20px;
+   
+    }
+    .hero3 .sec .ar1 .div3 img{
+      width: 25px;
+      height: 30px;
+      margin-top: -3px;
+      
+    }
+    .hero3 .sec .ar1 .div3 .ph1 img{
+      border-radius: 0px 0px 0px 5px;
+    }
+    .hero3 .sec .ar1 .div3 .ph2 img{
+      border-radius: 0px 0px 5px 0px;
+    }
+    .hero3 .sec{
+      display: flex;
+    }
+    .hero3 {
+      display: flex;
+    }
+    .hero3  .sec .ar2 .div1 a{
+      text-decoration: none;
+      color: black;
+    }
+    .hero3 .sec .ar2 .div1{
+      margin-top: 30px;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+    .hero3 .sec .ar2 .star{
+      display: flex;
+     margin-left: 20px;
+     margin-top: 20px;
+   
+   }
+   .hero3 .sec .ar2 .star .d1{
+      color: rgb(218, 195, 68);
+      display: flex;
+   }
+   .hero3 .sec .ar2 .star .d2{
+      margin-left: 8px;
+     color:  rgb(103, 159, 223);
+      
+   }
+   .hero3 .sec .ar2 .star .d3{
+      margin-left: 5px;
+      color:  rgb(103, 159, 223);
+   }
+    .hero3 .sec .ar2 .star .d3 a{
+       text-decoration: none;
+       color:  rgb(103, 159, 223);
+    }
+    .hero3 .sec .ar2 .div4{
+      display: flex;
+      margin-left: 20px;
+     margin-top: 15px;
+   }
+   .hero3 .sec .ar2 .div4 .d4{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+      margin-right: 5px;
+   }
+   .hero3 .sec .ar2 .div4 .d5{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+      margin-right: 5px;
+   
+   }
+   .hero3 .sec .ar2 .div4 .d6{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+   }
+   .hero3 .sec .ar2 .div5{
+      margin-left: 20px;
+     margin-top: 20px;
+   }
+   .hero3 .ar3{
+      margin-top: 20px;
+      margin-left: 150px;
+   }
+   .hero3 .ar3 .d7{
+      font-size: 17px;
+      margin-top: 20px;
+      margin-left: 100px;
+   }
+   .hero3 .ar3 .d8{
+      margin-left: 8px;
+      margin-left: 110px;
+   }
+   .hero3 .ar3 .d12{
+      margin-left: 200px;
+      margin-top: -40px;
+      font-size: 35px;
+      color:  rgb(103, 159, 223);
+   
+   }
+   .hero3 .ar3 .d9{
+      margin-top: 160px;
+      font-size: 17px;
+      margin-left: 100px;
+   
+   
+   }.hero3 .ar3 .d10{
+      font-size: 25px;
+      margin-left: 40px;
+      margin-top: 5px;
+      margin-left: 130px;
+   
+   
+   }
+   .hero3 .ar3 .d11 a{
+      text-decoration: none;
+      color: white;
+   }
+   .hero3 .ar3 .d11{
+      text-decoration: none;
+      margin-top: 40px;
+      border: 0.5px solid grey;
+      color: white;
+      background-color:  rgb(103, 159, 223);
+      padding: 12px 10px 12px 50px ;
+      border-radius: 5px;
+      margin-left: 50px;
+   
+   
+   }
+   .hero3 .sec{
+      border: 0.5px solid grey;
+     margin-left: 5px;
+     margin-top: -40px;
+     border-radius: 5px 0px 0px 5px ;
+     margin-bottom: 70px;
+     padding: 0px 40px 20px 0px;
+   }
+   .hero3 .ar3{
+      border: 0.5px solid grey;
+      padding: 0px 20px 0px 0px ;
+      margin-left: 0px;
+      margin-bottom: 70px;
+      margin-top: -40px;
+      border-radius: 0px 5px 5px 0px;
+      display: none;
+   }
+   
+
 }
 /* =======================hero4==================== */
 .hero4 .sec .ar1 .div1 img{

@@ -27,6 +27,13 @@
       "checkin": "2025-01-16",
       "checkout": "2025-01-18",
       "room": "Group travelers"
+    },
+    {
+      "id": "eeb2",
+      "city": "Delhi",
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-04",
+      "room": "Family travelers"
     }
   ]
 }
