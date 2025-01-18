@@ -2089,6 +2089,7 @@ html{
    }
    .hero6 .ar2 .div1{
       margin-top: 10px;
+      margin-left: 10px;
       /* margin-left: -20px; */
    }
    .hero6 .ar2 .div1 a{
@@ -2205,4 +2206,70 @@ html{
    margin-top: 50px;
    margin-left: 600px;
    /* margin-bottom: 20px; */
+}
+@media screen and (max-width :396px){
+   .hero7{
+      background-color: rgb(41, 39, 39);
+   }
+   .hero7 .ar1 .div1{
+      color: white;
+      margin-left: 25px;
+      padding-top: 50px;
+      font-size: 10px;
+   }
+   .hero7 .ar1 .div2{
+      color: white;
+      margin-left: 10px;
+      font-size: 10px;
+   
+   }
+   .hero7 .ar2{
+      display: flex;
+   }
+   .hero7 .ar2 .div1 img{
+      height: 30px;
+      width: 50px;
+      margin-top: 50px;
+      margin-left: 20px;
+      background-color: black;
+   }
+   .hero7 .ar2 .div2 img{
+      height: 30px;
+      width: 50px;
+      margin-top: 50px;
+      margin-left: 20px;
+      background-color: black;
+   
+   }
+   .hero7 .ar2 .div3 img{
+      height: 30px;
+      width: 50px;
+      margin-top: 50px;
+      margin-left: 30px;
+      /* background-color: black; */
+   
+   }
+   .hero7 .ar2 .div4 img{
+      height: 30px;
+      width: 50px;
+      margin-top: 50px;
+      margin-left: 30px;
+      /* background-color: black; */
+   
+   }
+   .hero7 .ar2 .div5 img{
+      height: 30px;
+      width: 50px;
+      margin-top: 50px;
+      margin-left: 30px;
+      /* background-color: black; */
+   
+   }
+   .hero7 .div6{
+      color: white;
+      margin-top: 50px;
+      margin-left: 60px;
+      /* margin-bottom: 20px; */
+   }
+
 }
