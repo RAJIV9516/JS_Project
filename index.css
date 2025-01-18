@@ -1395,6 +1395,175 @@ html{
   margin-top: -40px;
 
 }
+@media screen and (max-width :396px){
+   .hero4 .sec .ar1 .div1 img{
+      height: 100px;
+      width: 100px;
+      border-radius: 5px 5px 0px 0px;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+    .hero4 .sec .ar1 .div2{
+      display: flex;
+      margin-left: 20px;
+    }
+    .hero4 .sec .ar1 .div2 img{
+      width: 25px;
+      height: 30px;
+      margin-top: -3px;
+      
+    }
+    .hero4 .sec .ar1 .div3 {
+      display: flex;
+      margin-left: 20px;
+   
+    }
+    .hero4 .sec .ar1 .div3 img{
+      width: 25px;
+      height: 30px;
+      margin-top: -3px;
+      
+    }
+    .hero4 .sec .ar1 .div3 .ph1 img{
+      border-radius: 0px 0px 0px 5px;
+    }
+    .hero4 .sec .ar1 .div3 .ph2 img{
+      border-radius: 0px 0px 5px 0px;
+    }
+    .hero4 .sec{
+      display: flex;
+    }
+    .hero4 {
+      display: flex;
+    }
+    .hero4  .sec .ar2 .div1 a{
+      text-decoration: none;
+      color: black;
+    }
+    .hero4 .sec .ar2 .div1{
+      margin-top: 30px;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+    .hero4 .sec .ar2 .star{
+      display: flex;
+     margin-left: 20px;
+     margin-top: 20px;
+   
+   }
+   .hero4 .sec .ar2 .star .d1{
+      color: rgb(218, 195, 68);
+   }
+   .hero4 .sec .ar2 .star .d2{
+      margin-left: 8px;
+     color:  rgb(103, 159, 223);
+      
+   }
+   .hero4 .sec .ar2 .star .d3{
+      margin-left: 5px;
+      color:  rgb(103, 159, 223);
+   }
+    .hero4 .sec .ar2 .star .d3 a{
+       text-decoration: none;
+       color:  rgb(103, 159, 223);
+    }
+    .hero4 .sec .ar2 .div4{
+      display: flex;
+      margin-left: 20px;
+     margin-top: 15px;
+   }
+   .hero4 .sec .ar2 .div4 .d4{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+      margin-right: 5px;
+   }
+   .hero4 .sec .ar2 .div4 .d5{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+      margin-right: 5px;
+   
+   }
+   .hero4 .sec .ar2 .div4 .d6{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+   }
+   .hero4 .sec .ar2 .div5{
+      margin-left: 20px;
+     margin-top: 20px;
+   }
+   .hero4 .ar3{
+      margin-top: 20px;
+      margin-left: 150px;
+   }
+   .hero4 .ar3 .d7{
+      font-size: 17px;
+      margin-top: 20px;
+      margin-left: 100px;
+   }
+   .hero4 .ar3 .d8{
+      margin-left: 8px;
+      margin-left: 110px;
+   }
+   .hero4 .ar3 .d12{
+      margin-left: 200px;
+      margin-top: -40px;
+      font-size: 35px;
+      color:  rgb(103, 159, 223);
+   
+   }
+   .hero4 .ar3 .d9{
+      margin-top: 160px;
+      font-size: 17px;
+      margin-left: 100px;
+   
+   
+   }.hero4 .ar3 .d10{
+      font-size: 25px;
+      margin-left: 40px;
+      margin-top: 5px;
+      margin-left: 130px;
+   
+   
+   }
+   .hero4 .ar3 .d11 a{
+      text-decoration: none;
+      color: white;
+   }
+   .hero4 .ar3 .d11{
+      text-decoration: none;
+      margin-top: 40px;
+      border: 0.5px solid grey;
+      color: white;
+      background-color:  rgb(103, 159, 223);
+      padding: 12px 10px 12px 50px ;
+      border-radius: 5px;
+      margin-left: 50px;
+   
+   
+   }
+   .hero4 .sec{
+      border: 0.5px solid grey;
+     margin-left: 5px;
+     margin-top: -40px;
+     border-radius: 5px 0px 0px 5px ;
+     margin-bottom: 70px;
+     padding: 0px 35px 20px 0px;
+   }
+   .hero4 .ar3{
+      border: 0.5px solid grey;
+      padding: 0px 20px 0px 0px ;
+      margin-left: 0px;
+      margin-bottom: 70px;
+      border-radius: 0px 5px 5px 0px;
+     margin-top: -40px;
+     display: none;
+   
+   }
+
+}
  /* ==========================hero5==================== */
  .hero5 .sec .ar1 .div1 img{
    height: 230px;
@@ -1569,6 +1738,183 @@ html{
    border-radius: 5px 5px 5px 5px ;
    color: white;
 }
+@media screen and (max-width :396px){
+   .hero5 .sec .ar1 .div1 img{
+      height: 100px;
+      width: 100px;
+      border-radius: 5px 5px 0px 0px;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+    .hero5 .sec .ar1 .div2{
+      display: flex;
+      margin-left: 20px;
+    }
+    .hero5 .sec .ar1 .div2 img{
+      width: 25px;
+      height: 30px;
+      margin-top: -3px;
+      
+    }
+    .hero5 .sec .ar1 .div3 {
+      display: flex;
+      margin-left: 20px;
+   
+    }
+    .hero5 .sec .ar1 .div3 img{
+      width: 25px;
+      height: 30px;
+      margin-top: -3px;
+      
+    }
+    .hero5 .sec .ar1 .div3 .ph1 img{
+      border-radius: 0px 0px 0px 5px;
+    }
+    .hero5 .sec .ar1 .div3 .ph2 img{
+      border-radius: 0px 0px 5px 0px;
+    }
+    .hero5 .sec{
+      display: flex;
+    }
+    .hero5 {
+      display: flex;
+    }
+    .hero5  .sec .ar2 .div1 a{
+      text-decoration: none;
+      color: black;
+    }
+    .hero5 .sec .ar2 .div1{
+      margin-top: 30px;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+    .hero5 .sec .ar2 .star{
+      display: flex;
+     margin-left: 20px;
+     margin-top: 20px;
+   
+   }
+   .hero5 .sec .ar2 .star .d1{
+      color: rgb(218, 195, 68);
+   }
+   .hero5 .sec .ar2 .star .d2{
+      margin-left: 8px;
+     color:  rgb(103, 159, 223);
+      
+   }
+   .hero5 .sec .ar2 .star .d3{
+      margin-left: 5px;
+      color:  rgb(103, 159, 223);
+   }
+    .hero5 .sec .ar2 .star .d3 a{
+       text-decoration: none;
+       color:  rgb(103, 159, 223);
+    }
+    .hero5 .sec .ar2 .div4{
+      display: flex;
+      margin-left: 20px;
+     margin-top: 15px;
+   }
+   .hero5 .sec .ar2 .div4 .d4{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+      margin-right: 5px;
+   }
+   .hero5 .sec .ar2 .div4 .d5{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+      margin-right: 5px;
+   
+   }
+   .hero5 .sec .ar2 .div4 .d6{
+      border: 0.5px solid grey;
+      padding: 5px 5px 5px 5px;
+      border-radius: 3px;
+   }
+   .hero5 .sec .ar2 .div5{
+      margin-left: 20px;
+     margin-top: 20px;
+   }
+   .hero5 .ar3{
+      margin-top: 20px;
+      margin-left: 150px;
+   }
+   .hero5 .ar3 .d7{
+      font-size: 17px;
+      margin-top: 20px;
+      margin-left: 100px;
+   }
+   .hero5 .ar3 .d8{
+      margin-left: 8px;
+      margin-left: 110px;
+   }
+   .hero5 .ar3 .d12{
+      margin-left: 200px;
+      margin-top: -40px;
+      font-size: 35px;
+      color:  rgb(103, 159, 223);
+   
+   }
+   .hero5 .ar3 .d9{
+      margin-top: 160px;
+      font-size: 17px;
+      margin-left: 100px;
+   
+   
+   }.hero5 .ar3 .d10{
+      font-size: 25px;
+      margin-left: 40px;
+      margin-top: 5px;
+      margin-left: 130px;
+   
+   
+   }
+   .hero5 .ar3 .d11 a{
+      text-decoration: none;
+      color: white;
+   }
+   .hero5 .ar3 .d11{
+      text-decoration: none;
+      margin-top: 40px;
+      border: 0.5px solid grey;
+      color: white;
+      background-color:  rgb(103, 159, 223);
+      padding: 12px 10px 12px 50px ;
+      border-radius: 5px;
+      margin-left: 50px;
+   
+   
+   }
+   .hero5 .sec{
+      border: 0.5px solid grey;
+     margin-left: 5px;
+     margin-top: -40px;
+     border-radius: 5px 0px 0px 5px ;
+     margin-bottom: 70px;
+     padding: 0px 125px 20px 0px;
+   }
+   .hero5 .ar3{
+      border: 0.5px solid grey;
+      padding: 0px 20px 0px 0px ;
+      margin-left: 0px;
+      margin-bottom: 70px;
+      border-radius: 0px 5px 5px 0px;
+     margin-top: -40px;
+     display: none;
+   
+   }
+   .d13 a{
+      margin-left: 30px;
+      text-decoration: none;
+      background-color: rgb(103, 159, 223);
+      padding: 15px 80px 15px 60px;
+      border-radius: 5px 5px 5px 5px ;
+      color: white;
+   }
+
+}
 /* =========================hero6===================== */
 .hero6 .ar1{
    margin-top: 50px;
@@ -1676,6 +2022,127 @@ html{
 }
 .hero6 .div7{
    margin-right: 200px;
+}
+
+@media screen and (max-width :396px){
+   .hero6 .ar1{
+      margin-top: 50px;
+      margin-left: -0px;
+   }
+   .hero6 .ar1 .div1{
+      font-size: 25px;
+      margin-left: 20px;
+   }
+   .hero6 .ar1 .div2{
+      margin-top: 20px;
+      font-size: 17px;
+      background-color: rgb(250, 246, 246);
+      padding: 10px 0px 10px 30px;
+      margin-right: 140px;
+   
+   }
+   .hero6 .ar1 .div3{
+      margin-top: 10px;
+      margin-left: 30px;
+      font-size: 17px;
+   }
+   .hero6 .ar1 .div4{
+      margin-top: 10px;
+      font-size: 17px;
+      background-color: rgb(250, 246, 246);
+      padding: 10px 0px 10px 30px;
+      margin-right: 140px;
+   
+   }
+   .hero6 .ar1 .div5{
+      margin-top: 10px;
+      margin-left: 30px;
+      font-size: 17px;
+   }
+   .hero6 .ar1 .div6{
+      margin-top: 10px;
+      font-size: 17px;
+      background-color:rgb(250, 246, 246);
+      padding: 10px 0px 10px 30px;
+      margin-right: 140px;
+   
+   }
+   .hero6 .div7{
+      /* margin: 20px 0px 0px 20px; */
+      font-size: 28px;
+   }
+   .hero6 .ar2 {
+      display: flex;
+   }
+   .hero6 .ar2 article {
+      display: flex;
+   }
+   .hero6 .ar2 article div a{
+      text-decoration: none;
+   }
+   .hero6 .div7{
+      margin: 20px 0px 0px 20px;
+      font-size: 30px;
+   }
+   .hero6 .ar2{
+      justify-content: space-evenly;
+   }
+   .hero6 .ar2 .div1{
+      margin-top: 10px;
+      /* margin-left: -20px; */
+   }
+   .hero6 .ar2 .div1 a{
+      color: blue;
+   }
+   .hero6 .ar2 .div2{
+      margin-left: 150px;
+      margin-top: 10px;
+   }
+   .hero6 .ar2 .div2 a{
+      color: black;
+   }
+   .hero6 .ar2 .div3{
+      margin-left: -180px;
+      margin-top: 10px;
+      display: none;
+   
+   }
+   .hero6 .ar2 .div3 a{
+      color: blue;
+   }
+   .hero6 .ar2 .div4{
+      margin-top: 10px;
+      margin-left: 150px;
+      display: none;
+   }
+   .hero6 .ar2 .div4 a{
+      color: black;
+   }
+   .hero6 .ar2 .div5{
+      margin-left: -180px;
+      margin-top: 10px;
+      display: none;
+   }
+   .hero6 .ar2 .div5 a{
+      color: blue;
+      display: none;
+   }
+   .hero6 .ar2 .div6{
+      margin-left: 150px;
+      margin-top: 10px;
+      display: none;
+   }
+   .hero6 .ar2 .div6 a{
+      color: black;
+   }
+   .hero6 .ar7{
+      /* margin-left: -100px;
+      margin-right: 100px; */
+   }
+   .hero6 .div7{
+      /* margin-right: -200px; */
+   }
+
 }
 /* =======================hero7================================ */
 .hero7{
