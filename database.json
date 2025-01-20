@@ -48,6 +48,27 @@
       "checkin": "2025-01-02",
       "checkout": "2025-01-04",
       "room": "1 Adult"
+    },
+    {
+      "id": "4cd3",
+      "city": "itarsi",
+      "checkin": "2025-01-02",
+      "checkout": "2025-01-04",
+      "room": "1 Adult"
+    },
+    {
+      "id": "7e7a",
+      "city": "itarsi",
+      "checkin": "2025-01-02",
+      "checkout": "2025-01-04",
+      "room": "1 Adult"
+    },
+    {
+      "id": "5c54",
+      "city": "itarsi",
+      "checkin": "2025-01-24",
+      "checkout": "2025-01-31",
+      "room": "Family travelers"
     }
   ]
 }
