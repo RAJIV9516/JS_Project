@@ -91,6 +91,108 @@ html{
     border-radius: 5px;
     padding-top: 10px;
 }
+
+#smallnav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 50px 20px 50px;
+   display: none;
+}
+
+#shownav{
+   width: 1400px;
+   height: 200vh;
+   background-color: white;
+   position: absolute;
+   top: 0px;
+   left: -3000px;
+   /* opacity: 0.1; */
+   /* padding: 20px 0px 0px 20px; */
+
+}
+
+@media(max-width:396px){
+
+   .topnav{
+       display: none;
+   }
+   #smallnav{
+       display: flex;
+       margin-left: 5px;
+       justify-content: space-evenly;
+       box-shadow: 0px 0px 2px 0.5px rgb(232, 230, 230);
+       width: 1400px;
+   }
+   #smallnav #div1 img{
+       height: 40px;
+   }
+   #smallnav #div2{
+       font-size: 40px;
+       margin-left: 200px;
+   }
+   #smallnav #div3 a{
+        text-decoration: none;
+        font-size: 20px;
+   }
+   #smallnav #div3{
+       background-color: rgb(248, 216, 14);
+       padding: 20px ;
+       width:100px; 
+       height: 30px;
+       margin-top: 15px;
+       border-radius: 5px;
+       /* margin: 30px 0px 0px 650px; */
+       margin-left: 950px;
+   
+   }
+   #shownav{
+         font-size: 27px;
+
+   }
+   #shownav div a{
+       text-decoration: none;
+       padding: 40px 0px 0px 100px;
+
+   }
+   #shownav div{
+       padding: 32px;
+   }
+   #shownav #div1{
+       display: flex;
+       justify-content:space-between;
+   }
+   #shownav #div2{
+       font-size: 40px;
+       padding-top: 30px;
+   }
+   #shownav #div5{
+       padding: 0px 50px 0px 130px;
+   }
+   #shownav #div6{
+       font-size: 30px ;
+       display: flex;
+       justify-content: space-between;
+
+   }
+   #shownav #div7{
+       font-size: 27px ;
+       display: flex;
+       justify-content: space-between;
+
+   }
+   #shownav #div8{
+       padding: 0px 50px 0px 130px;
+   }
+
+   #input1:checked ~ #shownav{
+       left: 0px;
+       /* transition:left 0.5s; */
+   }
+
+}
+
+/* ================================================================================ */
 .hero7{
     background-color: rgb(41, 39, 39);
  }
@@ -154,6 +256,73 @@ html{
  }.hero7{
     margin-top: 335px;
  }
+
+ @media screen and (max-width :396px){
+    .hero7{
+       background-color: rgb(41, 39, 39);
+    }
+    .hero7 .ar1 .div1{
+       color: white;
+       margin-left: 25px;
+       padding-top: 50px;
+       font-size: 10px;
+    }
+    .hero7 .ar1 .div2{
+       color: white;
+       margin-left: 10px;
+       font-size: 10px;
+    
+    }
+    .hero7 .ar2{
+       display: flex;
+    }
+    .hero7 .ar2 .div1 img{
+       height: 30px;
+       width: 50px;
+       margin-top: 50px;
+       margin-left: 20px;
+       background-color: black;
+    }
+    .hero7 .ar2 .div2 img{
+       height: 30px;
+       width: 50px;
+       margin-top: 50px;
+       margin-left: 20px;
+       background-color: black;
+    
+    }
+    .hero7 .ar2 .div3 img{
+       height: 30px;
+       width: 50px;
+       margin-top: 50px;
+       margin-left: 30px;
+       /* background-color: black; */
+    
+    }
+    .hero7 .ar2 .div4 img{
+       height: 30px;
+       width: 50px;
+       margin-top: 50px;
+       margin-left: 30px;
+       /* background-color: black; */
+    
+    }
+    .hero7 .ar2 .div5 img{
+       height: 30px;
+       width: 50px;
+       margin-top: 50px;
+       margin-left: 30px;
+       /* background-color: black; */
+    
+    }
+    .hero7 .div6{
+       color: white;
+       margin-top: 50px;
+       margin-left: 60px;
+       /* margin-bottom: 20px; */
+    }
+ 
+ }
  /* ========================================================= */
  .hero #t1{
     margin-left: 400px;
@@ -166,3 +335,18 @@ html{
  .hero #editform{
     margin-left: 650px;
  }
+
+@media screen and (max-width :396px){
+    .hero #t1{
+        margin-left: 3px;
+        margin-top: 50px;
+        width: 0px;
+        height: 400px;
+        color: black;
+        background-color: rgb(221, 215, 215);
+     }
+     .hero #editform{
+        margin-left: 650px;
+     }
+
+}
